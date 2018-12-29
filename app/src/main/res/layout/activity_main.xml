@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="默认效果"/>
+
+    <Button
+        android:id="@+id/btn_default1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="淡入"/>
+
+    <Button
+        android:id="@+id/btn_default2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="淡出"/>
+
+    <Button
+        android:id="@+id/btn_default3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="左滑3"/>
+
+    <Button
+        android:id="@+id/btn_default4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="右滑4"/>
+
+</LinearLayout>
