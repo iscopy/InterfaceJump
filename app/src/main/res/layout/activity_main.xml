@@ -36,4 +36,16 @@
         android:layout_height="wrap_content"
         android:text="右滑4"/>
 
+    <Button
+        android:id="@+id/btn_default5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义5"/>
+
+    <Button
+        android:id="@+id/btn_default6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义6"/>
+
 </LinearLayout>

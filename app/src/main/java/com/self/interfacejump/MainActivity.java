@@ -18,7 +18,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button btn_default2 = findViewById(R.id.btn_default2);
         Button btn_default3 = findViewById(R.id.btn_default3);
         Button btn_default4 = findViewById(R.id.btn_default4);
+        Button btn_default5 = findViewById(R.id.btn_default5);
+        Button btn_default6 = findViewById(R.id.btn_default6);
 
+        btn_default5.setOnClickListener(this);
+        btn_default6.setOnClickListener(this);
         btn_default.setOnClickListener(this);
         btn_default1.setOnClickListener(this);
         btn_default2.setOnClickListener(this);
@@ -48,6 +52,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_default4:
                 startActivity(new Intent(MainActivity.this, AfterJumpActivity.class));
                 overridePendingTransition(android.R.anim.slide_out_right,0);
+                break;
+            case R.id.btn_default5:
+                startActivity(new Intent(MainActivity.this, AfterJumpActivity.class));
+                overridePendingTransition(R.anim.anim_in,0);
+                break;
+            case R.id.btn_default6:
+                startActivity(new Intent(MainActivity.this, AfterJumpActivity.class));
+                overridePendingTransition(R.anim.anim_out,0);
                 break;
         }
     }
